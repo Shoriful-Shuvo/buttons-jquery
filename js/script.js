@@ -1,0 +1,39 @@
+$(function(){
+    $("#hide").click(function(){
+        $(".box").hide(1000)
+    })
+    $("#show").click(function(){
+        $(".box").show(1000)
+    })
+    $("#hide_show").click(function(){
+        $(".box").toggle(1000)
+    })
+    $("#slide_up").click(function(){
+        $(".box").slideUp(1000)
+    })
+    $("#slide_down").click(function(){
+        $(".box").slideDown(1000)
+    })
+    $("#slide-up-down").click(function(){
+        $(".box").slideToggle(1000)
+    })
+    $("#fade_in").click(function(){
+        $(".box").fadeIn(500)
+    })
+    $("#fade_out").click(function(){
+        $(".box").fadeOut(500)
+    })
+    $("#fade_in_out").click(function(){
+        $(".box").fadeToggle(500)
+    })
+    $("#add_color").click(function(){
+        $(".box").addClass("color")
+    })
+    $("#remove_color").click(function(){
+        $(".box").removeClass("color")
+    })
+    $("#add_remove_color").click(function(){
+        $(".box").toggleClass("color")
+    })
+
+})

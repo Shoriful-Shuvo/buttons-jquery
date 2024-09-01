@@ -1,0 +1,25 @@
+/* all common css start */
+
+/* all common css start */
+
+#main{
+    background: teal;
+    height: 600px;
+}
+.box{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background: forestgreen ;
+}
+.color{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+
+
+
+
+
